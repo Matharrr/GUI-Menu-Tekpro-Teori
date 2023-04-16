@@ -61,7 +61,7 @@ public class MenuMakanan extends javax.swing.JFrame {
 
         jLabel4.setText("Alamat :");
 
-        jLabel5.setText("No. Telp :");
+        jLabel5.setText("Telepon :");
 
         jTextField1.setText("Contoh : Mathar");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -335,7 +335,7 @@ public class MenuMakanan extends javax.swing.JFrame {
         Holder += "\nTanggal\t= " + LocalDateTime.now();
         Holder += "\nNama\t= " + jTextField1.getText();
         Holder += "\nAlamat\t= " + jTextField2.getText();
-        Holder += "\nNo Tlp\t= " + jTextField3.getText();
+        Holder += "\nTelepon\t= " + jTextField3.getText();
         Holder += "\n---";
         Holder += "\nPesanan : \n";
         if (jCheckBox1.isSelected()) {
